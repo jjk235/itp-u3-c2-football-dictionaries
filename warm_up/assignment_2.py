@@ -1,2 +1,6 @@
 def transform_user_list_to_dict(a_user):
-    pass
+    new_dict={}
+    new_dict['name'] = a_user[0]
+    new_dict['email'] = a_user[1]
+    new_dict['age'] = a_user[2]
+    return new_dict
