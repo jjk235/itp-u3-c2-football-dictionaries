@@ -7,4 +7,4 @@ def build_user_as_dict(name, email, age):
         'age':age
         }
     )
-    
+    return new_dict
